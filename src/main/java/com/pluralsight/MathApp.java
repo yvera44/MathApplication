@@ -6,14 +6,18 @@ public class MathApp {
         int bobSalary = 80000;
         int garySalary = 100000;
         int highestSalary = Math.max(bobSalary, garySalary);
-
         System.out.println("The highest salary is " + highestSalary);
 
         int carPrice = 42000;
         int truckPrice = 64000;
         int lowestPrice = Math.min(carPrice, truckPrice);
-
         System.out.println("The lowest price is " + lowestPrice);
+
+        float radius = 7.25f;
+        double circleArea = Math.PI * Math.pow(radius, 2);
+        System.out.println("Circle area: " + circleArea);
+
+
 
 
     }
