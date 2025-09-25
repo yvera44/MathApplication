@@ -38,19 +38,22 @@ public class MathApp {
         double absValue = Math.abs(num);
         System.out.println(absValue);
 
+        //7
+        double num1 = 1;
+        double num2 = 0;
 
+        double randomNum = (double)(Math.random()*1);
+        System.out.println(randomNum);
 
+        //8
+        int days = 24;
+        int hoursInDay = 24;
+        int oneMinute = 60;
+        int milliSec = 1000;
 
-
-
-
-
-
-
-
-
-
-
+        int totalMin = days * hoursInDay * oneMinute;
+        int totalMilliSec = totalMin * oneMinute * milliSec;
+        System.out.println("There are " + totalMin + " minutes in 24 days and " + totalMilliSec + " milli-seconds");
 
     }
 }
